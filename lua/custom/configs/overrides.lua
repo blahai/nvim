@@ -12,6 +12,7 @@ M.treesitter = {
     "c",
     "markdown",
     "markdown_inline",
+    "kotlin",
   },
   indent = {
     enable = true,
@@ -26,6 +27,10 @@ M.mason = {
     -- lua stuff
     "lua-language-server",
     "stylua",
+
+    -- kotlin
+    "kotlin-language-server",
+    "ktlint",
 
     -- web dev stuff
     "css-lsp",
