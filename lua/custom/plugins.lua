@@ -31,6 +31,11 @@ local plugins = {
 
   -- Install a plugin
   {
+    'wakatime/vim-wakatime',
+    lazy = false,
+  },
+
+  {
     "max397574/better-escape.nvim",
     event = "InsertEnter",
     config = function()
